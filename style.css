@@ -6,12 +6,12 @@
 body, html {
   height: 100%;
   margin: 0;
-  width: 100%];
+  width: 100%;
 }
 
 ul {
   height: 75px;
-  width: 1440px;
+  width: 100%;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -57,12 +57,6 @@ a:hover:not(.active) {
   position: absolute;
 }
 
-.clearfix:after {
-  content: ' ';
-  display: table;
-  clear: both;
-} 
-
 #topdog {
   margin-bottom: 100px;
 }
@@ -87,7 +81,6 @@ input {
 
 .ntd {
   background-color: #75e2e6;
-  border: 2px solid;
   font-weight: 300%;
   height: 50px;
   width: 600px;
@@ -111,26 +104,27 @@ h1 {
 }
 
 #sad {
-  border: 1px solid;
+  border-top: 3px solid;
+  border-color: #048eaa;
   height: 600px;
-  width: 1440px;
+  width: 100%;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/park.jpg');
-  background-size: 100% auto;
+  background-size: 1440px auto;
   background-repeat: no-repeat;
   background-position-y: bottom;
-  padding: 10px;
 }
 
 #sad1 {
   color: #ffffff;
   text-align: center;
-  width: 600px;
+  width: 100%;
   height: 600px;
-  margin-left: 400;
 }
+
 input { 
   margin-bottom: 20px; 
 }
+
 button {
   font-size: 20;
 }
@@ -150,11 +144,19 @@ tr a {
 
 .text {
   width: 300px;
+  text-align: left;
+}
+
+#three_div {
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  display: block;
+  width: 100%;
 }
 
 #how {
   height: 500px;
-  width: 350px;
+  width: 25%;
   text-align: center;
   display: inline-block;
   margin: 5px;
@@ -179,12 +181,7 @@ tr a {
   display: inline-block;
   margin: 5px;
   padding: 55px;
-  float: right;  
-}
-
-#three_div {
-  background-color: #ffffff;
-  margin-bottom: 50px;
+  float: right;
 }
 
 h2 {
@@ -195,16 +192,18 @@ h2 {
   color: #ffffff;
   background-color: #048eaa;
   height: 50px;
-  width: 350px;
+  width: 100%;
   display: block;
   font-size: 24;
   text-decoration: none;
+  overflow: hidden;
   padding-top: 10px;
 }
 
 .text {
   font-size: 17;
   font-weight: 15;
+  color: #000000;
   height: 150px;
   width: 350px;
 }
@@ -215,7 +214,8 @@ h2 {
 footer {
   background-color: #048eaa;
   text-align: center;
-  width: 1440px;
+  height: 150px;
+  width: 100%;
   padding: 20px 0px;
 }
 
@@ -227,3 +227,10 @@ footer a {
   padding: 14px 10px;
   text-decoration: none;
 }
+
+/*MEDIA QUERIES
+
+@media screen and (max-width: 700px) {
+
+}*/
+
