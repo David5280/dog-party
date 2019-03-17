@@ -1,0 +1,229 @@
+* {
+  font-family: "Trebuchet MS", sans-serif;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  width: 100%];
+}
+
+ul {
+  height: 75px;
+  width: 1440px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #75e2e6;
+  border: 1px #75e2e6;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  font-size: 24;
+  text-align: center;
+  padding: 30px 10px;
+  text-decoration: none;
+}
+
+a:hover:not(.active) {
+  background-color: #048eaa;
+}
+
+.active {
+  background-color: #75e2e6;
+}
+
+.logo {
+  float: center;
+  width: 60px;
+  height: auto;
+  margin-left: 12px;
+  margin-right: 1000px;
+  margin-top: 8px;
+}
+
+#logo {
+  width: 50px;
+  display: block;
+  float: left;
+  position: absolute;
+}
+
+.clearfix:after {
+  content: ' ';
+  display: table;
+  clear: both;
+} 
+
+#topdog {
+  margin-bottom: 100px;
+}
+
+.dogname {
+  margin-right: 540px;
+  font-size: 20;
+}
+
+form label {
+  margin-bottom: 50px;
+}
+
+input {
+    font-size:22px;
+}
+
+.nameInput {
+  height: 50px;
+  width: 600px;
+}
+
+.ntd {
+  background-color: #75e2e6;
+  border: 2px solid;
+  font-weight: 300%;
+  height: 50px;
+  width: 600px;
+}
+
+.dog {
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: #048eaa;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 38;
+}
+
+.somedogs {
+  font-weight: bold;
+  font-size: 46px;
+}
+
+#sad {
+  border: 1px solid;
+  height: 600px;
+  width: 1440px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/park.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  padding: 10px;
+}
+
+#sad1 {
+  color: #ffffff;
+  text-align: center;
+  width: 600px;
+  height: 600px;
+  margin-left: 400;
+}
+input { 
+  margin-bottom: 20px; 
+}
+button {
+  font-size: 20;
+}
+
+tr img {
+  text-align: center;
+}
+
+tr a {
+  border: 2px solid;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+}
+
+.text {
+  width: 300px;
+}
+
+#how {
+  height: 500px;
+  width: 350px;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  padding: 55px;
+  float: left;  
+}
+
+#what {
+  height: 500px;
+  width: 350px;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  padding: 55px;
+  float: center;  
+}
+
+#facts {
+  height: 500px;
+  width: 350px;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  padding: 55px;
+  float: right;  
+}
+
+#three_div {
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 36;
+}
+
+.containers a {
+  color: #ffffff;
+  background-color: #048eaa;
+  height: 50px;
+  width: 350px;
+  display: block;
+  font-size: 24;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.text {
+  font-size: 17;
+  font-weight: 15;
+  height: 150px;
+  width: 350px;
+}
+.baselogo {
+  padding: 13px;
+}
+
+footer {
+  background-color: #048eaa;
+  text-align: center;
+  width: 1440px;
+  padding: 20px 0px;
+}
+
+footer a {
+  font-size: 24;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
